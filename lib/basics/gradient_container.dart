@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/styled_text.dart';
-import 'package:flutter_basics/dice_roller.dart';
+import 'package:flutter_basics/basics/styled_text.dart';
+import 'package:flutter_basics/basics/dice_roller.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;

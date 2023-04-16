@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
+final randomizer = Random();
 
 class DiceRoller extends StatefulWidget {
   const DiceRoller({super.key});
@@ -17,10 +18,8 @@ class _DiceRollerState extends State<DiceRoller> {
 
   rollDice() {
     setState(() {
-      diceRoll = Random().nextInt(6) + 1;
+      diceRoll = randomizer.nextInt(6) + 1;
     });
-    
-    print('rollDice: called');
   }
 
   @override

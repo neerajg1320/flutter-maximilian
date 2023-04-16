@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_basics/gradient_container.dart';
+import 'package:flutter_basics/advanced/quiz_app.dart';
+
 
 void main(List<String> args) {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        body: GradientContainer(Colors.black, Colors.white),
-      ),
-    ),
-  );
+  runApp(const QuizApp());
 }
-
